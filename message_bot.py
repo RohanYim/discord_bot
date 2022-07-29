@@ -10,33 +10,13 @@ import urllib
 
 ## webhook-url
 # balko
-balko_success = 'https://discord.com/api/webhooks/870957941451276298/LUEoCP0iIYzo25L3gC-wikbr1rfopIozf6G9BN30pGJniLlSByz3ZudXecE6_XUWiE28'
-balko_announcement = 'https://discord.com/api/webhooks/871216896446447616/1uu-BR4TYK5mGRaGRvEqUJXkQlk0NcigVB-oFDjx1Na6xhu38CH4ZIHx7K9Aqlroc5NZ'
-balko_update = 'https://discord.com/api/webhooks/874946296451067914/-9D0kAup9NLrazDonqK3AXH7cdPXbgHgvFKpQE2LN34fBKDXT0Mf8pxhgfE-OZ_RuTW0'
+balko_success = 'xxx'
+balko_announcement = 'xxx'
+balko_update = 'xxx'
 # prism
-prism_update = 'https://discord.com/api/webhooks/875230088524857375/ZHL3t_QUj4V5ItjMINlW0f5LIwf_YWS1OCJZXcWUmKPf1_Qo2rfrTZk6k6_x5aORn-fG'
-prism_announcement = 'https://discord.com/api/webhooks/876024598267854848/nZbVysob6nMDdffirBeuRrmwzFTyjOt3kFep5zXn7HWNZZnc49dsDqVlvJVFz8yKCxkP'
-prism_success = 'https://discord.com/api/webhooks/876024630085816370/tyfoIXXXhhjL8Mg22Nzi56d1Ckt6VjSW54oDQHvTBBxCFQXHARHcw1bgBabz60hpIxPk'
-# reaio
-reaio_update = 'https://discord.com/api/webhooks/875229794609037373/IkI8ZvbHDiY3pAxcIKGyDmB7PIpq80LCXN3yS8HGgsGuGy_jZI9Fo-uT1CCMk9tNwydh'
-reaio_announcement = 'https://discord.com/api/webhooks/876023949140557874/txVXMQUEKmLHWeoHmIAI3IcBhNg8a2Hmzw8Jp4qMemqsXw9kZcUCEnL7vXtG3bZiKaOh'
-reaio_success = 'https://discord.com/api/webhooks/876024429610668052/yZPJEJTz_Xa9ZAq4Q4ededepgM-y10BlU4PvUk9XrD8ePTnHFzIjtwdIo5zjCQaCxJS6'
-# mekaio
-mekaio_update = 'https://discord.com/api/webhooks/875558290652823562/tSshvMUgAwfpw2fnLDn8V15rAXJMf02Y_1C0ZZgO3EAJTziX-jSLM1mdVBV7YTL-Y50T'
-mekaio_announcement = 'https://discord.com/api/webhooks/876024697937068032/nHK5mAxbQOPE7dVocPsjqJfHzt0ocXjyb2q-uJetuKBeX2l7ppFz9vV4-kVc8724Fgbp'
-mekaio_success = 'https://discord.com/api/webhooks/876024726525452288/ri3fgRm_bBzgJg62Laxdlj0ZBbv0VABok1Cz5ZdIZ2_6hHNe6XhAMuPOnCVtcbnEcoy1'
-# easycop
-easycop_update = 'https://discord.com/api/webhooks/875558575588659211/tJXzrufu14xa1EdmxZEFGd1qXNzwHzaqW8ompLPLCIijYzRL7VlZCSYscBC9B39h0MWJ'
-easycop_announcement = 'https://discord.com/api/webhooks/876024980033384448/3hoSKW2BzNdynCNPlRuuF4C_6uo_Iasx1z1EWgB04rN994-He1zRRkDjxIo8CRFj2Fnp'
-easycop_success = 'https://discord.com/api/webhooks/876025013109665812/96Vb7vLGhWaYZrE0HGT1kUPFYtV9PuUy1lLPvjUC_zdI_uj9d17JuNKPlbCgSSPMN2rK'
-# kylin
-kylin_update = 'https://discord.com/api/webhooks/875558363033903155/3rShMTcsWXhklQBjeNRWUSaMf5I_HS-ah66Qta5G147x-zz6poCEfGmJbMQJPJcpP7B5'
-kylin_announcement = 'https://discord.com/api/webhooks/876024789553254400/eSXJWM4H_vl3skBBk2gsSw6SsvktVJUxieSim1PRRfay0zXeHtzUOdWSirRRwYZfxQgY'
-kylin_success = 'https://discord.com/api/webhooks/876024819932610601/kU-Chu7fWN2p3aoDFov9lj1mWzZpDhTqJRi6hmZQqzK_wunVl6oR03nLpd8bqE14NbR5'
-# nsb
-nsb_update = 'https://discord.com/api/webhooks/875558496035287091/r3hP3hAULghNrdSLEQ8R18k_iy55bZIwL45tLxHrDjwwD3SB-JBEtMf9aF4pNQ_e3wYW'
-nsb_announcement = 'https://discord.com/api/webhooks/876024884604600371/cK7De5c2X3o4usbcCXCiZNLl_RG6I1FYZPiBkf9j-4V5QTmzzqk6g7P9obPeK-NbadWJ'
-nsb_success = 'https://discord.com/api/webhooks/876024912219881533/RlqTgorQVMQgPvevqdnK8SXKDXOIsMkXsqPXoZ2ab-luQwAqbUPSfEdRdsydiWkjHWnt'
+prism_update = 'xxx'
+prism_announcement = 'xxx'
+prism_success = 'xxx'
 # phantom
 phantom_update = ''
 phantom_announcement =''
@@ -128,7 +108,7 @@ def connect():
     heartbeat_interval = event['d']['heartbeat_interval'] / 1000
     threading._start_new_thread(heartbeat, (heartbeat_interval, ws))
 
-    token = 'mfa.lFc0VdyG50_6MchMsovHneXDaAfbIKpikm-KfyAEdZr_fyPvOLtWgQH5XTXzpwRrmfz_VfjUgCFrkY70LGsx'
+    token = 'xxx'
     payload = {
         'op': 2,
         "d": {
@@ -176,7 +156,7 @@ while True:
                 elif event['d']['channel_id'] == reaio_success_channel:
                     webhook_url = reaio_success
                 else:
-                    webhook_url = 'https://discord.com/api/webhooks/861786508825853993/UIGF2asljMIhmQPb8ASELLqt94xnTNPe3fpIuWHDdNv1hqcoG0UO9nkSmJD5XgYzJ-yM'
+                    webhook_url = 'https://discord.com/api/webhooks/861786508825853993/xxx'
 
                 embed['footer']['text'] = embed_footer
                 embed['footer']['icon_url'] = embed_icon
@@ -226,7 +206,7 @@ while True:
                     embed['author']['name'] = 'Reaio announcement'
                     webhook_url = reaio_announcement
                 else:
-                    webhook_url = 'https://discord.com/api/webhooks/861786508825853993/UIGF2asljMIhmQPb8ASELLqt94xnTNPe3fpIuWHDdNv1hqcoG0UO9nkSmJD5XgYzJ-yM'
+                    webhook_url = 'https://discord.com/api/webhooks/861786508825853993/xxx'
 
                 embed['footer']['text'] = embed_footer
                 embed['footer']['icon_url'] = embed_icon
@@ -268,7 +248,7 @@ while True:
                     embed['author']['name'] = 'Easycop update'
                     webhook_url = easycop_update
                 else:
-                    webhook_url = 'https://discord.com/api/webhooks/861786508825853993/UIGF2asljMIhmQPb8ASELLqt94xnTNPe3fpIuWHDdNv1hqcoG0UO9nkSmJD5XgYzJ-yM'
+                    webhook_url = 'https://discord.com/api/webhooks/861786508825853993/xxx'
 
                 embed['footer']['text'] = embed_footer
                 embed['footer']['icon_url'] = embed_icon
@@ -283,7 +263,7 @@ while True:
                 print(str(datetime.datetime.now()) + ": " + "webhook sent")
             else:
                 embed = event['d']['content']
-                webhook_url = 'https://discord.com/api/webhooks/871216896446447616/1uu-BR4TYK5mGRaGRvEqUJXkQlk0NcigVB-oFDjx1Na6xhu38CH4ZIHx7K9Aqlroc5NZ'
+                webhook_url = 'https://discord.com/api/webhooks/871216896446447616/xxx'
                 webhook = DiscordWebhook(
                     url=webhook_url, content=embed)
 
